@@ -29,10 +29,6 @@
 		CECA9DB11BD1DE6E00CC63E3 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CECA9DB01BD1DE6E00CC63E3 /* GLKit.framework */; };
 		CECA9DB31BD1DE7700CC63E3 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CECA9DB21BD1DE7700CC63E3 /* SystemConfiguration.framework */; };
 		CECA9DB51BD1E07E00CC63E3 /* SkyWay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CECA9DB41BD1E07E00CC63E3 /* SkyWay.framework */; };
-		CECA9DC01BD1F38F00CC63E3 /* MediaConnectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECA9DBF1BD1F38F00CC63E3 /* MediaConnectionViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		CECA9DC21BD1F8FE00CC63E3 /* SkyWay.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECA9DC11BD1F8FE00CC63E3 /* SkyWay.swift */; settings = {ASSET_TAGS = (); }; };
-		CECA9DC71BD1FB4F00CC63E3 /* NWObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECA9DC61BD1FB4F00CC63E3 /* NWObserver.swift */; settings = {ASSET_TAGS = (); }; };
-		CECA9DCA1BD1FC6100CC63E3 /* VideoViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECA9DC91BD1FC6100CC63E3 /* VideoViewManager.swift */; settings = {ASSET_TAGS = (); }; };
 		D71B73EAA8DE973F0A68DC5A /* Pods_uniken4App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4644CA5857B4B45F80AE9BB2 /* Pods_uniken4App.framework */; };
 /* End PBXBuildFile section */
 
@@ -86,10 +82,6 @@
 		CECA9DB21BD1DE7700CC63E3 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		CECA9DB41BD1E07E00CC63E3 /* SkyWay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SkyWay.framework; path = "SkyWay-iOS-SDK-0.2.0/SkyWay.framework"; sourceTree = "<group>"; };
 		CECA9DB81BD1E6B500CC63E3 /* uniken4App-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "uniken4App-Bridging-Header.h"; sourceTree = "<group>"; };
-		CECA9DBF1BD1F38F00CC63E3 /* MediaConnectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaConnectionViewController.swift; sourceTree = "<group>"; };
-		CECA9DC11BD1F8FE00CC63E3 /* SkyWay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SkyWay.swift; path = ../SkyWay.swift; sourceTree = "<group>"; };
-		CECA9DC61BD1FB4F00CC63E3 /* NWObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NWObserver.swift; sourceTree = "<group>"; };
-		CECA9DC91BD1FC6100CC63E3 /* VideoViewManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoViewManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,11 +173,8 @@
 		CECA9D6A1BD0BE2500CC63E3 /* uniken4App */ = {
 			isa = PBXGroup;
 			children = (
-				CECA9DC81BD1FC4A00CC63E3 /* views */,
-				CECA9DC51BD1FB2600CC63E3 /* peer */,
 				CECA9D6B1BD0BE2500CC63E3 /* AppDelegate.swift */,
 				CECA9DB81BD1E6B500CC63E3 /* uniken4App-Bridging-Header.h */,
-				CECA9DBF1BD1F38F00CC63E3 /* MediaConnectionViewController.swift */,
 				CECA9D6D1BD0BE2500CC63E3 /* ViewController.swift */,
 				CECA9D6F1BD0BE2500CC63E3 /* Main.storyboard */,
 				CECA9D721BD0BE2500CC63E3 /* Assets.xcassets */,
@@ -212,23 +201,6 @@
 				CECA9D8D1BD0BE2500CC63E3 /* Info.plist */,
 			);
 			path = uniken4AppUITests;
-			sourceTree = "<group>";
-		};
-		CECA9DC51BD1FB2600CC63E3 /* peer */ = {
-			isa = PBXGroup;
-			children = (
-				CECA9DC11BD1F8FE00CC63E3 /* SkyWay.swift */,
-				CECA9DC61BD1FB4F00CC63E3 /* NWObserver.swift */,
-			);
-			path = peer;
-			sourceTree = "<group>";
-		};
-		CECA9DC81BD1FC4A00CC63E3 /* views */ = {
-			isa = PBXGroup;
-			children = (
-				CECA9DC91BD1FC6100CC63E3 /* VideoViewManager.swift */,
-			);
-			path = views;
 			sourceTree = "<group>";
 		};
 		D7EED3404C4847757C6D8BDB /* Pods */ = {
@@ -424,10 +396,6 @@
 			files = (
 				CECA9D6E1BD0BE2500CC63E3 /* ViewController.swift in Sources */,
 				CECA9D6C1BD0BE2500CC63E3 /* AppDelegate.swift in Sources */,
-				CECA9DC01BD1F38F00CC63E3 /* MediaConnectionViewController.swift in Sources */,
-				CECA9DC21BD1F8FE00CC63E3 /* SkyWay.swift in Sources */,
-				CECA9DCA1BD1FC6100CC63E3 /* VideoViewManager.swift in Sources */,
-				CECA9DC71BD1FB4F00CC63E3 /* NWObserver.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
