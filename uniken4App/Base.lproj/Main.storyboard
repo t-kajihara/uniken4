@@ -119,18 +119,34 @@
                                     <action selector="push:" destination="aau-fD-u9K" eventType="touchUpInside" id="abD-xE-PWM"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vEd-m3-tpO">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="カメラ変更"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="20" y="204" width="76" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="changeCamera:" destination="aau-fD-u9K" eventType="touchUpInside" id="MZo-o9-YxN"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="9TP-1X-iOI"/>
                                 <exclude reference="oIG-zV-4FX"/>
+                                <exclude reference="vEd-m3-tpO"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="subviews">
                                 <include reference="9TP-1X-iOI"/>
                                 <include reference="oIG-zV-4FX"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="vEd-m3-tpO"/>
                             </mask>
                         </variation>
                     </view>
@@ -140,7 +156,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hfG-YM-umf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-246" y="270"/>
+            <point key="canvasLocation" x="-246" y="45.75"/>
         </scene>
     </scenes>
 </document>

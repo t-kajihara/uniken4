@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "1FB73EFA8AFEA4A9E81D3961C2A365395DE7C981",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "1FB73EFA8AFEA4A9E81D3961C2A365395DE7C981" : 0,
+    "90F3037A25FC2F059651F336704BB2D7C935E579" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "F387A379-B77F-430A-A42E-92C34A990418",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "1FB73EFA8AFEA4A9E81D3961C2A365395DE7C981" : "uniken4\/",
+    "90F3037A25FC2F059651F336704BB2D7C935E579" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "uniken4App",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "uniken4App.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/t-kajihara\/uniken4.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1FB73EFA8AFEA4A9E81D3961C2A365395DE7C981"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/t-kajihara\/uniken4.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "90F3037A25FC2F059651F336704BB2D7C935E579"
+    }
+  ]
+}
