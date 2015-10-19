@@ -9,19 +9,12 @@
 import UIKit
 import Socket_IO_Client_Swift  //追加
 
-// Enter your APIkey and Domain
-// Please check this page. >> https://skyway.io/ds/
-let kAPIkey = "ad1c9cc0-c1ed-4e9b-a5fe-fcf9d275042a"
-let kDomain = "54.92.61.229"
-
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
     var socket: SocketIOClient!
-    var peer:   SKWPeer!
-
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
@@ -29,7 +22,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         //////////////////////////////////////////////////////////////////////////////////
         ///////////////////// START: Set Socket Initialize Block   ///////////////////////
         //////////////////////////////////////////////////////////////////////////////////
-        socket = SocketIOClient(socketURL: "http://54.92.61.229:3000/socket.io/", opts: nil)
+        socket = SocketIOClient(socketURL: "http://52.68.235.132:3000/socket.io/", opts: nil)
         
         // イベントコールバックの設定
         socket.on("connect") { data in
